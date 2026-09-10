@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * Copy this file to config.smtp.php and fill in your mailbox details.
+ *
+ *   cp config.smtp.php.example config.smtp.php
+ *
+ * config.smtp.php is listed in .gitignore so mailbox passwords stay off GitHub.
+ * Do not invent or commit real credentials.
+ *
+ * Typical Stack2 mailbox SMTP (STARTTLS):
+ *   Host: mail.yourdomain.com.au
+ *   Port: 587
+ *   Encryption: STARTTLS (tls)
+ *   Username: the full mailbox address
+ */
+
+return [
+    'host' => 'mail.example.com.au',
+    'port' => 587,
+    'encryption' => 'tls', // STARTTLS
+    'username' => 'hello@example.com.au',
+    'password' => 'replace-with-your-mailbox-password',
+    'from_email' => 'hello@example.com.au',
+    'from_name' => 'Example Studio',
+    'to_email' => 'hello@example.com.au',
+    'to_name' => 'Example Studio',
+];
