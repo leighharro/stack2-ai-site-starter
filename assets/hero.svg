@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">A simple site going live on Australian hosting</title>
+  <rect width="560" height="420" rx="28" fill="#12161C"/>
+  <rect x="24" y="24" width="512" height="372" rx="20" fill="#1A1D22" stroke="#2E2E35"/>
+  <circle cx="52" cy="52" r="6" fill="#EF4444"/>
+  <circle cx="72" cy="52" r="6" fill="#F59E0B"/>
+  <circle cx="92" cy="52" r="6" fill="#6FD957"/>
+  <rect x="56" y="88" width="200" height="18" rx="9" fill="#6FD957"/>
+  <rect x="56" y="122" width="280" height="12" rx="6" fill="#3A3D44"/>
+  <rect x="56" y="144" width="240" height="12" rx="6" fill="#3A3D44"/>
+  <rect x="56" y="186" width="120" height="36" rx="18" fill="#6FD957"/>
+  <rect x="320" y="88" width="176" height="220" rx="16" fill="#111820" stroke="#2E2E35"/>
+  <path d="M344 268h128v16H344zM360 220h40v48h-40zM424 200h32v68h-32zM392 184h24v84h-24z" fill="#42AC27"/>
+  <circle cx="408" cy="156" r="18" fill="#6FD957"/>
+  <text x="56" y="360" fill="#9A9AA8" font-family="Segoe UI, system-ui, sans-serif" font-size="16">Sydney servers · free SSL · from $15/mo</text>
+</svg>

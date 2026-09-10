@@ -1,0 +1,5 @@
+# Local SMTP credentials. Copy config.smtp.php.example instead.
+config.smtp.php
+
+.DS_Store
+Thumbs.db

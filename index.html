@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Example Studio | Stack2 AI-site starter</title>
+    <meta name="description" content="A minimal HTML, CSS and PHP demo site you can upload to Stack2 hosting in Australia.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="wrap bar">
+            <a class="brand" href="index.html">
+                <img src="assets/logo.svg" alt="" width="36" height="36">
+                <span>Example Studio</span>
+            </a>
+            <nav aria-label="Primary">
+                <a href="#about">About</a>
+                <a href="#work">What this is</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <div class="wrap hero-grid">
+                <div>
+                    <p class="eyebrow">Demo site for Stack2 hosting</p>
+                    <h1>A small Australian site you can upload today.</h1>
+                    <p class="lede">This starter is static HTML and CSS plus a PHP contact form. It is the sort of AI-built site that runs on <a href="https://stack2.au/solutions/ai-site">Stack2 AI-site hosting</a> from $15/mo AUD, GST included.</p>
+                    <div class="actions">
+                        <a class="btn" href="#contact">Send a message</a>
+                        <a class="btn btn-ghost" href="https://stack2.au/hosting">See hosting plans</a>
+                    </div>
+                </div>
+                <img class="hero-art" src="assets/hero.svg" alt="Simple illustration of a Sydney skyline and a website going live">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="wrap">
+                <h2>Built to be replaced with your own copy.</h2>
+                <p>Swap the name, colours, and words. Keep the form if you want enquiries to land in a real mailbox on your domain. PHPMailer is included in the repo, so you do not need Composer on the server.</p>
+            </div>
+        </section>
+
+        <section id="work" class="section section-alt">
+            <div class="wrap">
+                <h2>What ships in this package</h2>
+                <ul class="cards">
+                    <li>
+                        <h3>A one-page demo</h3>
+                        <p>Home, styles, a thank-you page, and a few SVG assets. Enough to prove the upload path.</p>
+                    </li>
+                    <li>
+                        <h3>A mailbox contact form</h3>
+                        <p>contact.php sends through SMTP on port 587 with STARTTLS, using the mailbox you create in the Stack2 panel.</p>
+                    </li>
+                    <li>
+                        <h3>A deploy README</h3>
+                        <p>Mailbox, config, upload, DNS, and free SSL. Support is by ticket or email, not phone.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="wrap split">
+                <div>
+                    <h2>Get in touch</h2>
+                    <p>This form posts to contact.php. Until you copy <code>config.smtp.php.example</code> to <code>config.smtp.php</code> and add your mailbox, submissions will show a setup message instead of sending.</p>
+                </div>
+                <form class="form" action="contact.php" method="post" novalidate>
+                    <label>
+                        Name
+                        <input type="text" name="name" autocomplete="name" required maxlength="200">
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" autocomplete="email" required maxlength="254">
+                    </label>
+                    <label>
+                        Company <span class="optional">(optional)</span>
+                        <input type="text" name="company" autocomplete="organization" maxlength="200">
+                    </label>
+                    <label class="hp" aria-hidden="true">
+                        Website
+                        <input type="text" name="website" tabindex="-1" autocomplete="off">
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" rows="6" required maxlength="5000"></textarea>
+                    </label>
+                    <button class="btn" type="submit">Send message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-grid">
+            <p>Example Studio is a fictional demo that ships with the Stack2 AI-site starter.</p>
+            <p>
+                Host this on
+                <a href="https://stack2.au/solutions/ai-site">AI-site hosting</a>
+                or compare
+                <a href="https://stack2.au/hosting">Stack2 hosting plans</a>
+                from $15/mo AUD inc GST.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
