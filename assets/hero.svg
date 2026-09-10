@@ -1,16 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420" role="img" aria-labelledby="heroTitle">
-  <title id="heroTitle">A simple site going live on Australian hosting</title>
-  <rect width="560" height="420" rx="28" fill="#12161C"/>
-  <rect x="24" y="24" width="512" height="372" rx="20" fill="#1A1D22" stroke="#2E2E35"/>
-  <circle cx="52" cy="52" r="6" fill="#EF4444"/>
-  <circle cx="72" cy="52" r="6" fill="#F59E0B"/>
-  <circle cx="92" cy="52" r="6" fill="#6FD957"/>
-  <rect x="56" y="88" width="200" height="18" rx="9" fill="#6FD957"/>
-  <rect x="56" y="122" width="280" height="12" rx="6" fill="#3A3D44"/>
-  <rect x="56" y="144" width="240" height="12" rx="6" fill="#3A3D44"/>
-  <rect x="56" y="186" width="120" height="36" rx="18" fill="#6FD957"/>
-  <rect x="320" y="88" width="176" height="220" rx="16" fill="#111820" stroke="#2E2E35"/>
-  <path d="M344 268h128v16H344zM360 220h40v48h-40zM424 200h32v68h-32zM392 184h24v84h-24z" fill="#42AC27"/>
-  <circle cx="408" cy="156" r="18" fill="#6FD957"/>
-  <text x="56" y="360" fill="#9A9AA8" font-family="Segoe UI, system-ui, sans-serif" font-size="16">Sydney servers · free SSL · from $15/mo</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Sydney skyline and a website going live</title>
+  <desc id="heroDesc">Simple illustration of a Sydney skyline and a website going live</desc>
+  <defs>
+    <linearGradient id="nightSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122433"/>
+      <stop offset="1" stop-color="#0a121a"/>
+    </linearGradient>
+    <linearGradient id="harbourWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16364a"/>
+      <stop offset="1" stop-color="#0a121a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="480" rx="28" fill="url(#nightSky)"/>
+  <circle cx="520" cy="64" r="150" fill="#6FD957" opacity="0.14"/>
+  <circle cx="86" cy="54" r="4" fill="#6FD957" opacity="0.75"/>
+  <circle cx="148" cy="28" r="2.5" fill="#f5f5f5" opacity="0.5"/>
+  <circle cx="210" cy="62" r="2" fill="#f5f5f5" opacity="0.4"/>
+  <circle cx="300" cy="36" r="2.2" fill="#6FD957" opacity="0.5"/>
+
+  <!-- CBD towers -->
+  <g fill="#2a4154">
+    <rect x="36" y="210" width="30" height="154" rx="3"/>
+    <rect x="72" y="176" width="36" height="188" rx="3"/>
+    <rect x="114" y="224" width="24" height="140" rx="3"/>
+    <rect x="164" y="198" width="32" height="166" rx="3"/>
+    <rect x="202" y="158" width="40" height="206" rx="3"/>
+    <rect x="248" y="216" width="26" height="148" rx="3"/>
+  </g>
+  <g fill="#6FD957">
+    <rect x="42" y="222" width="5" height="8" rx="1"/>
+    <rect x="52" y="222" width="5" height="8" rx="1"/>
+    <rect x="42" y="238" width="5" height="8" rx="1"/>
+    <rect x="52" y="238" width="5" height="8" rx="1"/>
+    <rect x="42" y="254" width="5" height="8" rx="1"/>
+    <rect x="80" y="190" width="6" height="9" rx="1"/>
+    <rect x="91" y="190" width="6" height="9" rx="1"/>
+    <rect x="80" y="206" width="6" height="9" rx="1"/>
+    <rect x="91" y="206" width="6" height="9" rx="1"/>
+    <rect x="80" y="222" width="6" height="9" rx="1"/>
+    <rect x="120" y="236" width="5" height="8" rx="1"/>
+    <rect x="170" y="212" width="5" height="8" rx="1"/>
+    <rect x="180" y="212" width="5" height="8" rx="1"/>
+    <rect x="210" y="174" width="6" height="9" rx="1"/>
+    <rect x="221" y="174" width="6" height="9" rx="1"/>
+    <rect x="232" y="174" width="6" height="9" rx="1"/>
+    <rect x="210" y="190" width="6" height="9" rx="1"/>
+    <rect x="221" y="190" width="6" height="9" rx="1"/>
+    <rect x="210" y="206" width="6" height="9" rx="1"/>
+    <rect x="254" y="230" width="5" height="8" rx="1"/>
+    <rect x="262" y="230" width="5" height="8" rx="1"/>
+  </g>
+
+  <!-- Harbour Bridge -->
+  <path d="M270 324 C304 208, 396 208, 430 324" fill="none" stroke="#8ee56f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M278 324 C308 228, 392 228, 422 324" fill="none" stroke="#2a4154" stroke-width="3"/>
+  <g fill="#6FD957">
+    <rect x="292" y="246" width="10" height="80" rx="2"/>
+    <rect x="398" y="246" width="10" height="80" rx="2"/>
+    <rect x="266" y="320" width="168" height="10" rx="2"/>
+  </g>
+  <g stroke="#4a6578" stroke-width="2">
+    <path d="M308 250 L308 320"/>
+    <path d="M328 232 L328 320"/>
+    <path d="M350 224 L350 320"/>
+    <path d="M372 232 L372 320"/>
+    <path d="M392 250 L392 320"/>
+  </g>
+
+  <!-- Opera House sails -->
+  <g fill="#eef7ea" stroke="#6FD957" stroke-width="2">
+    <path d="M452 328 C454 262, 500 224, 556 218 C526 258, 514 296, 512 328 Z"/>
+    <path d="M424 328 C426 278, 460 246, 508 240 C484 274, 474 304, 472 328 Z"/>
+    <path d="M404 328 C406 296, 428 274, 460 270 C446 294, 440 312, 440 328 Z"/>
+  </g>
+  <path d="M392 328 H568" stroke="#6FD957" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Harbour -->
+  <rect x="0" y="328" width="640" height="152" fill="url(#harbourWater)"/>
+  <path d="M0 344 C80 332, 160 354, 240 340 C320 326, 400 356, 480 338 C540 326, 600 346, 640 336" fill="none" stroke="#6FD957" stroke-width="2" opacity="0.45"/>
+  <path d="M0 366 C90 354, 180 376, 270 362 C360 348, 450 378, 540 360 C590 350, 620 368, 640 360" fill="none" stroke="#8ee56f" stroke-width="1.5" opacity="0.28"/>
+
+  <!-- Site going live -->
+  <g>
+    <rect x="368" y="42" width="236" height="168" rx="16" fill="#12161c" stroke="#3a4d5c"/>
+    <circle cx="390" cy="64" r="5" fill="#ef4444"/>
+    <circle cx="408" cy="64" r="5" fill="#f59e0b"/>
+    <circle cx="426" cy="64" r="5" fill="#6FD957"/>
+    <rect x="448" y="56" width="132" height="16" rx="8" fill="#1a1d22"/>
+    <rect x="384" y="86" width="204" height="108" rx="10" fill="#0a121a"/>
+    <rect x="396" y="102" width="88" height="10" rx="5" fill="#6FD957"/>
+    <rect x="396" y="120" width="120" height="7" rx="3.5" fill="#2e2e35"/>
+    <rect x="396" y="134" width="104" height="7" rx="3.5" fill="#2e2e35"/>
+    <rect x="396" y="158" width="64" height="20" rx="10" fill="#6FD957"/>
+    <rect x="496" y="102" width="76" height="76" rx="10" fill="#152433" stroke="#3a4d5c"/>
+    <path d="M508 162 h52 v8 h-52 z M516 142 h16 v20 h-16 z M544 134 h16 v28 h-16 z" fill="#6FD957"/>
+    <rect x="500" y="28" width="86" height="26" rx="13" fill="#6FD957"/>
+    <text x="543" y="46" text-anchor="middle" fill="#0a121a" font-family="Segoe UI, system-ui, sans-serif" font-size="13" font-weight="700">LIVE</text>
+  </g>
 </svg>
