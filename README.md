@@ -83,9 +83,7 @@ If the certificate is not live yet, the [SSL checker](https://stack2.au/tools) w
 
 ## Support
 
-Support is via ticket or email.
-
-If the form cannot send, say so in a ticket and include the domain, the SMTP host, and the PHP version. Do not paste the mailbox password into the ticket if you can avoid it. An engineer can reset the mailbox or check the mail logs with you.
+Email and ticket support, handled by the engineers who run the platform. If the form cannot send, open a ticket and include the domain, the SMTP host, and the PHP version. Do not paste the mailbox password into the ticket if you can avoid it.
 
 ## Licence
 
